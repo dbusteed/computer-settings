@@ -23,7 +23,7 @@ then i add the entire directory to the PATH so it can be accessed anywhere
 1. OK > OK > OK
 
 ---
-### `WindowsPowerShell`
+### `WindowsPowerShell/`
 
 This directory contains `Microsoft.Powershell_profile.ps1`, the file PowerShell looks for when displaying the prompt.
 
