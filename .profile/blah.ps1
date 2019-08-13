@@ -1,0 +1,1 @@
+Set-Location $HOME\Desktop\blah

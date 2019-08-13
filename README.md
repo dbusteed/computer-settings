@@ -1,20 +1,37 @@
 # computer-settings
 
-shortcuts, executables, and profile settings for different OSs
-
-this is essentially a personal backup, but feel free to use any of part of this repo as you wish
+## windows stuff
 
 ---
+### `.profile/`
 
-depending on your OS, clone one of the branches with
+this directory contains PowerShell shortcuts and some useful executables like `wget`
+
+i like to keep it in my home directory,
+
 ```
-git clone -b <branch> --single-branch git://github.com/dbusteed/computer-settings.git
+cp -Recurse .profile/ $HOME/.
 ```
 
-available branches:
-* `windows`
-* `ubuntu`
+then i add the entire directory to the PATH so it can be accessed anywhere
+
+1. Start Menu
+1. Edit the system environment variables
+1. Environment variables
+1. Path > Edit 
+1. New > `C:\Users\<USERNAME>\.profile`
+1. OK > OK > OK
 
 ---
+### `WindowsPowerShell`
 
-check out those branches for a detailed README
+This directory contains `Microsoft.Powershell_profile.ps1`, the file PowerShell looks for when displaying the prompt.
+
+All you need to do is move it to your `Documents` folder
+
+```	
+cp -Recurse WindowsPowerShell/ $HOME/Documents/.
+```
+
+---
+### That's it!
