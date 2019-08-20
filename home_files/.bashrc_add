@@ -1,0 +1,5 @@
+export PROMPT_COMMAND='echo'
+
+export PS1="\[\033[95m\][ \[\033[92m\u\]\[\033[95m\]:\[\033[94m\]\W \[\033[95m\]]\[\033[00m\] "
+
+alias d='docker'
