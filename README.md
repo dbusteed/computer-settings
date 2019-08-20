@@ -1,20 +1,16 @@
 # computer-settings
 
-shortcuts, executables, and profile settings for different OSs
-
-this is essentially a personal backup, but feel free to use any of part of this repo as you wish
+## ubuntu stuff
 
 ---
+### `home_files/`
 
-depending on your OS, clone one of the branches with
-```
-git clone -b <branch> --single-branch git://github.com/dbusteed/computer-settings.git
-```
-
-available branches:
-* `windows`
-* `ubuntu`
+this directory contains config stuff for shells / apps that go in the home file `~/`
 
 ---
+### `extra_files/`
 
-check out those branches for a detailed README
+this directory contains notes / scripts for installing stuff and other reminders
+
+---
+### That's it!
