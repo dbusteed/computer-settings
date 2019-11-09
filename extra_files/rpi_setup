@@ -1,7 +1,5 @@
 WiFi
   sudo raspi-config
 
-New User
-
 Enable SSH
   update-rc.d ssh enable
