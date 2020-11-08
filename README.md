@@ -2,7 +2,6 @@
 
 ## windows stuff
 
----
 ### `.profile/`
 
 this directory contains PowerShell shortcuts and some useful executables like `wget`
@@ -22,7 +21,6 @@ then i add the entire directory to the PATH so it can be accessed anywhere
 1. New > `C:\Users\<USERNAME>\.profile`
 1. OK > OK > OK
 
----
 ### `WindowsPowerShell/`
 
 This directory contains `Microsoft.Powershell_profile.ps1`, the file PowerShell looks for when displaying the prompt.
@@ -32,6 +30,3 @@ All you need to do is move it to your `Documents` folder
 ```	
 cp -Recurse WindowsPowerShell/ $HOME/Documents/.
 ```
-
----
-### That's it!
